@@ -10,7 +10,7 @@ import { TestimonialsComponent } from './views/pages/testimonials/testimonials.c
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, FooterComponent,ToursComponent,NewsletterComponent,DestinationsComponent,ContactComponent,TestimonialsComponent],
+  imports: [ HeaderComponent, FooterComponent,ToursComponent,NewsletterComponent,DestinationsComponent,ContactComponent,TestimonialsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
